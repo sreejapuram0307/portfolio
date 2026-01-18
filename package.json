@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "sreeja-portfolio",
   "private": true,
   "version": "1.0.0",
@@ -22,5 +23,34 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.8"
+=======
+  "name": "portfolio-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://sreejapuram0307.github.io/portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.4.5"
+>>>>>>> c73e2ad1cfd8b213ad52b1f20b8f5fbc77be1c8d
   }
 }
